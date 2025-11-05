@@ -1,0 +1,14 @@
+C:\Users\ACER\Desktop\Dot Net\Workshop2\bin\Debug\net10.0\Workshop2.exe
+C:\Users\ACER\Desktop\Dot Net\Workshop2\bin\Debug\net10.0\Workshop2.deps.json
+C:\Users\ACER\Desktop\Dot Net\Workshop2\bin\Debug\net10.0\Workshop2.runtimeconfig.json
+C:\Users\ACER\Desktop\Dot Net\Workshop2\bin\Debug\net10.0\Workshop2.dll
+C:\Users\ACER\Desktop\Dot Net\Workshop2\bin\Debug\net10.0\Workshop2.pdb
+C:\Users\ACER\Desktop\Dot Net\Workshop2\obj\Debug\net10.0\Workshop2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\Dot Net\Workshop2\obj\Debug\net10.0\Workshop2.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\Dot Net\Workshop2\obj\Debug\net10.0\Workshop2.AssemblyInfo.cs
+C:\Users\ACER\Desktop\Dot Net\Workshop2\obj\Debug\net10.0\Workshop2.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\Dot Net\Workshop2\obj\Debug\net10.0\Workshop2.dll
+C:\Users\ACER\Desktop\Dot Net\Workshop2\obj\Debug\net10.0\refint\Workshop2.dll
+C:\Users\ACER\Desktop\Dot Net\Workshop2\obj\Debug\net10.0\Workshop2.pdb
+C:\Users\ACER\Desktop\Dot Net\Workshop2\obj\Debug\net10.0\Workshop2.genruntimeconfig.cache
+C:\Users\ACER\Desktop\Dot Net\Workshop2\obj\Debug\net10.0\ref\Workshop2.dll
