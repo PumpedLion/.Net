@@ -95,6 +95,7 @@ class Program
 
         Console.WriteLine("Fruit Dictionary:");
         foreach (var item in fruitDict)
+        //var (Means KeyValuePair<int, string> item in fruitDict That Automatically Detect KeyValuePair Type)
         {
             Console.WriteLine("Key: " + item.Key + ", Value: " + item.Value);
         }
