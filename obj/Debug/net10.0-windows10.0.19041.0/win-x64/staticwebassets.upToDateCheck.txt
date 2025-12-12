@@ -1,0 +1,8 @@
+wwwroot\app.css
+wwwroot\Images\College.jpg
+wwwroot\Images\Student.jpg
+wwwroot\index.html
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\ACER\.nuget\packages\microsoft.aspnetcore.components.webview\10.0.0-rc.2.25502.107\build\..\staticwebassets\blazor.webview.js
+C:\Users\ACER\.nuget\packages\microsoft.aspnetcore.components.webview\10.0.0-rc.2.25502.107\build\..\staticwebassets\blazor.modules.json

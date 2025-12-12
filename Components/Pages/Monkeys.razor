@@ -1,0 +1,64 @@
+﻿@page "/monkeys"
+
+<div style="padding: 20px;">
+    <h1 style="text-align: center; margin-bottom: 30px;">Monkey Directory</h1>
+
+    @if (monkeys.Count == 0)
+    {
+        <div style="text-align: center; padding: 40px; font-size: 1.2em; color: #666;">
+            <p>No monkeys found</p>
+        </div>
+    }
+    else
+    {
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto;">
+            @foreach (var monkey in monkeys)
+            {
+                <div style="background-color: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.2s;">
+                    <img src="@monkey.Image"
+                         alt="@monkey.Name"
+                         style="width: 100%; height: 250px; object-fit: cover;" />
+
+                    <div style="padding: 20px;">
+                        <h3 style="margin: 0 0 10px 0; color: #333;">@monkey.Name</h3>
+                        <p style="margin: 0; color: #666; display: flex; align-items: center;">
+                            <span style="margin-right: 5px;">📍</span>
+                            @monkey.Location
+                        </p>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    public class Monkey
+    {
+        public string Name { get; set; }
+        public string Location { get; set; }
+        public string Image { get; set; }
+    }
+
+    private List<Monkey> monkeys = new List<Monkey>
+    {
+        new Monkey
+        {
+            Name = "Baboon",
+            Location = "Africa & Asia",
+            Image = "https://raw.githubusercontent.com/jamesmontemagno/app-monkeys/master/baboon.jpg"
+        },
+        new Monkey
+        {
+            Name = "Capuchin Monkey",
+            Location = "Central & South America",
+            Image = "https://raw.githubusercontent.com/jamesmontemagno/app-monkeys/master/capuchin.jpg"
+        },
+        new Monkey
+        {
+            Name = "Blue Monkey",
+            Location = "Central and East Africa",
+            Image = "https://raw.githubusercontent.com/jamesmontemagno/app-monkeys/master/bluemonkey.jpg"
+        }
+    };
+}
